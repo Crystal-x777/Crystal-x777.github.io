@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>MarkDown语言指令整理</title>
+      <link href="/2023/11/22/MarkDown%E8%AF%AD%E8%A8%80%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86/"/>
+      <url>/2023/11/22/MarkDown%E8%AF%AD%E8%A8%80%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p>1.标题：几个#  空格 文字  ，几级标题，最高到六级</p><p><strong>加粗</strong></p><p>2.加粗：**  文字  **</p><p><em>斜体</em></p><p>3.斜体： *  文字  *</p><p><del>删除线</del></p><p>4.删除线： ~~  文字  ~~</p><p>&#x3D;&#x3D;高亮&#x3D;&#x3D;</p><p>5.高亮：不成功</p><blockquote><p>我是引用文字</p><blockquote><blockquote><p>引用文字</p></blockquote></blockquote><blockquote><blockquote><blockquote><p>引用文字</p></blockquote></blockquote></blockquote></blockquote><p>6.引用：几个&gt; + 文字</p><p>—分割线 、***分割线</p><p>7.分割线：—、*** +文字</p><p><img src="https://s2.loli.net/2023/11/18/Gb7teu6EwNzcIis.jpg%22%E5%9B%BE%E7%89%87%E6%B3%A8%E9%87%8A%22" alt="alt"></p><p>8.图片：<img src="/2023/11/22/MarkDown%E8%AF%AD%E8%A8%80%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80%22%E5%9B%BE%E7%89%87%E6%B3%A8%E9%87%8A%22" alt="alt"></p><img src="https://s2.loli.net/2023/11/18/Gb7teu6EwNzcIis.jpg" alt="alt" style="zoom: 25%;"><p>9.缩放图片：右键点击图片，缩放选择20%等。“图片注释”</p><p>[繁星的孩子](<a href="https://crystal-x777.github.io/">繁星的孩子 - 技术知识笔记 (crystal-x777.github.io)</a>)</p><p>10.超链接：[超链接名] (超链接地址)</p><ul><li>无序列表</li></ul><p>11.无序列表： + 空格 文字</p><ol><li>有序列表</li></ol><p>12.有序列表：数字 点 空格 文字</p><p>​子列表</p><p>13.子列表：在文字前按tab</p><table><thead><tr><th>第一列</th><th>第二列</th><th>第三列</th></tr></thead><tbody><tr><td>左</td><td>中</td><td>右</td></tr></tbody></table><p>14.表格:   |第一列| 第二列|第三列|</p><p>​|:—|:—|:—|</p><p>​|左|中|右|</p><p><code>npm install hexo-wordcount --save or yarn add hexo-wordcount</code></p><p>15.插入一行代码：&#96;反引号  文字  反引号 </p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">enable: true</span><br><span class="line">post_wordcount: true</span><br><span class="line">min2read: true</span><br><span class="line">total_wordcount: true</span><br></pre></td></tr></table></figure><p>16.插入多行代码： &#96;&#96;&#96; 三个反引号 多行代码 三个反引号</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> tool </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
