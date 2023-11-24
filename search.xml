@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>美化博客工具代码</title>
+      <link href="/2023/11/24/%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81/"/>
+      <url>/2023/11/24/%E7%BE%8E%E5%8C%96%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-批量改图片名"><a href="#1-批量改图片名" class="headerlink" title="1.批量改图片名"></a>1.批量改图片名</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import os</span><br><span class="line">import re</span><br><span class="line">#原图路径</span><br><span class="line">pic_path= &quot;E:\\Crystal\\themes\\Butterfly\\source\\img\\girl&quot;</span><br><span class="line">#新图名字</span><br><span class="line">pic_newName=&quot;girl&quot;</span><br><span class="line">def pic_rename(pic_path,pic_newName):</span><br><span class="line">    piclist=os.listdir(pic_path)</span><br><span class="line">    total_num=len(piclist)</span><br><span class="line">    i = 0</span><br><span class="line">    for pic in piclist:</span><br><span class="line">        if pic.endswith(&quot;.png&quot;):  # 修改成你自己想要重命名的文件格式</span><br><span class="line">            old_path = os.path.join(os.path.abspath(pic_path), pic)</span><br><span class="line">            new_path = os.path.join(os.path.abspath(pic_path),pic_newName+&quot;_&quot;+str(0 + (int(i))) + &#x27;.png&#x27;)  # 修改成了1000+N这种格式</span><br><span class="line">            os.renames(old_path, new_path)</span><br><span class="line">            print(&quot;原图片命名格式：&quot; + old_path + u&quot;转换为新图片命名格式：&quot; + new_path)</span><br><span class="line">            i = i + 1</span><br><span class="line">pic_rename(pic_path,pic_newName)</span><br></pre></td></tr></table></figure><hr><h3 id="2-批量裁剪图片"><a href="#2-批量裁剪图片" class="headerlink" title="2.批量裁剪图片"></a>2.批量裁剪图片</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">from PIL import Image</span><br><span class="line">pic_path= &quot;E:\\Crystal\\themes\\Butterfly\\source\\img\\girl&quot;</span><br><span class="line">left, upper, right, lower=0,212,827,1039 #potoshop的像素值，右边下面比左边上边大</span><br><span class="line">new_image_path=&quot;E:\\Crystal\\themes\\Butterfly\\source\\img&quot;</span><br><span class="line">def crop_image(pic_path,left, upper, right, lower, new_image_path):</span><br><span class="line">    piclist=os.listdir(pic_path)</span><br><span class="line">    i=0</span><br><span class="line">    for pic in piclist:</span><br><span class="line">        image = Image.open(os.path.join(pic_path,pic))</span><br><span class="line">        cropped_image = image.crop((left, upper, right, lower))</span><br><span class="line">        print(os.path.join(pic_path,&quot;girl&quot;+str(i)+&quot;.png&quot;))</span><br><span class="line">        cropped_image.save(os.path.join(pic_path,&quot;girl&quot;+str(i)+&quot;.png&quot;))</span><br><span class="line">        i+=1</span><br><span class="line">crop_image(pic_path,left,upper,right,lower,new_image_path)</span><br></pre></td></tr></table></figure><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> tool </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MarkDown语言指令整理</title>
       <link href="/2023/11/22/MarkDown%E8%AF%AD%E8%A8%80%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86/"/>
       <url>/2023/11/22/MarkDown%E8%AF%AD%E8%A8%80%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86/</url>
