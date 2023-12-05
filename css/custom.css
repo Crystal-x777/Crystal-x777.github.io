@@ -34,6 +34,12 @@ hr:before {
     transition: all .2s ease-out;
     /* 若要使用风车效果，请去掉下面的注释 */
      content: '\f863'; 
+     line-height: 1;
+     -webkit-transition: all .2s ease-out;
+     -moz-transition: all .2s ease-out;
+     -o-transition: all .2s ease-out;
+     -ms-transition: all .2s ease-out;
+     transition: all .2s ease-out;
     /* animation: avatar_turn_around 11s linear infinite;  */
 }
 #article-container h1 {
